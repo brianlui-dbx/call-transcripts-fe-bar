@@ -1,0 +1,35 @@
+@page {
+  size: 13.333in 7.5in;
+  margin: 0.55in 0.72in 0.5in;
+  @bottom-right { content: counter(page); font-size: 9pt; color: #5f6b72; }
+}
+
+body {
+  font-family: "DM Sans", Arial, sans-serif;
+  color: #1b2630;
+  font-size: 17pt;
+  line-height: 1.28;
+}
+
+h1 {
+  color: #123b45;
+  font-size: 31pt;
+  line-height: 1.08;
+  margin: 0 0 0.22in;
+  page-break-before: always;
+  border-bottom: 5px solid #ff3621;
+  padding-bottom: 0.12in;
+}
+
+h1:first-of-type { page-break-before: avoid; }
+h2 { color: #ff3621; font-size: 22pt; margin: 0.08in 0 0.2in; }
+p { margin: 0.09in 0 0.16in; }
+ul, ol { margin: 0.08in 0 0.12in 0.28in; }
+li { margin-bottom: 0.07in; }
+table { width: 100%; border-collapse: collapse; font-size: 13.5pt; margin-top: 0.16in; }
+th { background: #123b45; color: white; padding: 0.09in; text-align: left; }
+td { border-bottom: 1px solid #ccd4d8; padding: 0.08in 0.09in; vertical-align: top; }
+tr:nth-child(even) td { background: #f2f5f6; }
+strong { color: #123b45; }
+code { font-family: "Roboto Mono", monospace; font-size: 0.86em; background: #eef2f3; padding: 0.02in 0.04in; }
+

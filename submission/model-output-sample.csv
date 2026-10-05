@@ -1,0 +1,16 @@
+case_id,rate,code,qualifier,disposition,confidence,evidence
+CASE-001,—,4C,ownership,hard_blocker,High,"Customer wanted to purchase their own tank; the representative confirmed tanks were not sold at that location; customer chose an alternate supplier."
+CASE-002,2.04V/2.15F/gal,4A,current-supplier,hard_blocker,High,"Customer's current supplier matched the offer; customer stayed with the incumbent."
+CASE-003,2.12/gal,4A,other,mention_only,Medium,"Customer noted price parity, then accepted the fixed rate and signed."
+CASE-004,2.12/gal,4C,rate-mechanism,resolved,Medium,"Customer feared a year-two increase; the representative explained price-cap protection; customer accepted the protection."
+CASE-005,2.18/gal,4B,rental/economics,mention_only,Medium,"Customer's expected usage was below the rental-fee waiver threshold; customer understood the fee and proceeded."
+CASE-006,—,4C,ownership,mention_only,Medium,"Customer asked about buying a tank; the representative explained the lease model; customer proceeded."
+CASE-007,2.04V/2.18F/gal,4B,install/objection,friction,Medium,"An undetermined trenching charge created concern about hidden fees; customer deferred a decision pending a written fee schedule."
+CASE-008,2.09/gal,4D,commitment-length,mention_only,Medium,"Customer asked about agreement liability; the representative clarified an exception; customer proceeded."
+CASE-009,2.28/gal,4D,process,friction,High,"Electronic-signature-only processing caused multiple callbacks before the customer completed the agreement."
+CASE-010,1.65/gal,4B,MUC/objection,resolved,Medium,"Customer worried about a minimum-use charge; the representative confirmed the charge was zero and resolved the premise."
+CASE-011,2.47V/2.61F/gal,4F,threshold,mention_only,Medium,"Customer asked about a promotion; the representative explained the annual-volume threshold; customer continued."
+CASE-012,1.59/gal,4E,equipment,resolved,Medium,"Customer requested unsupported cylinders; the representative offered a supported tank alternative; customer accepted."
+CASE-013,—,4B,install/objection,hard_blocker,High,"Customer rejected the standard installation fee and ended the call to shop elsewhere."
+CASE-014,2.12/1.71/gal,4D,process,resolved,Medium,"Customer questioned signing before a site visit; the representative clarified when the contract becomes valid; customer signed."
+
